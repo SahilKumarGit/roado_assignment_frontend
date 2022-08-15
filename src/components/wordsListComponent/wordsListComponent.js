@@ -19,10 +19,15 @@ import DialogTitle from "@mui/material/DialogTitle";
 const WordsListComponent = () => {
   const wordList = useSelector((state) => state.getWordList.wordList);
   const dispatch = useDispatch();
+  const [mainLoading, setMainLoading] = useState(false)
   useEffect(() => {
+    setMainLoading(true)
     axios.get(apiUrls.list).then((e) => {
       dispatch(setWordList(e.data.data));
-      console.log(e.data.data);
+      setMainLoading(false)
+    }).catch(e => {
+      console.log(e.message)
+      setMainLoading(false)
     });
   }, []);
 
@@ -34,7 +39,7 @@ const WordsListComponent = () => {
   const actionOnDialog = async () => {
     setErrorInput({ status: false, message: "" });
     if (loading) return;
-    console.log(word);
+    // console.log(word);
     if (!word)
       return setErrorInput({
         status: true,
@@ -70,8 +75,9 @@ const WordsListComponent = () => {
         return <EachElementComponent key={i} data={e} />;
       })}
 
-      <Fab
+      {mainLoading ? <div className="lottieFile"><lottie-player style={{height:'70px'}} src="https://assets1.lottiefiles.com/private_files/lf30_fup2uejx.json" background="transparent" speed="1" loop autoplay></lottie-player></div> : ''}
 
+      <Fab
         onClick={() => {
           setOpenAlert(true);
         }}

@@ -9,3 +9,11 @@
     font-weight: 500;
     padding: 14px;
 }
+
+.lottieFile{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
