@@ -1,0 +1,34 @@
+.navBar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 55px;
+    color: white;
+    padding: 0 12px;
+}
+
+.title{
+    font-size: 25px;
+}
+
+.iconBox{
+    width: 40px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.searchInput{
+    width: 100%;
+    padding-right: 8px;
+}
+.searchInput .input{
+    background-color:transparent;
+    font-size: 18px;
+    border: none;
+    width: 100%;
+    padding: 8px 0px;
+    color: #fff;
+    outline: none;
+}

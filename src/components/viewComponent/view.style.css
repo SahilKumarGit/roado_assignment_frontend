@@ -1,0 +1,16 @@
+.📦viewBox {
+  max-width: 550px;
+  background-color: #64244b;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.container {
+  height: calc(100% - 55px);
+  background-color: #fff;
+  border-radius: 14px 14px 0 0;
+  overflow: hidden;
+  text-align: start;
+}

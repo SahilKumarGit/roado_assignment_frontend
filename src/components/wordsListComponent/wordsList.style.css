@@ -1,0 +1,11 @@
+.✏️wordsList{
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.workList{
+    border-bottom: 1px solid #d1d1d1;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 14px;
+}

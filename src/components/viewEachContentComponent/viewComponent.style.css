@@ -1,0 +1,71 @@
+.📦EachBox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+}
+.navBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+}
+.iconBox {
+  height: 55px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+}
+.eachContainer {
+  height: calc(100% - 55px);
+  overflow-y: auto;
+  padding: 0 14px;
+  text-align: left;
+}
+
+.eachContainer .title {
+  font-weight: 500;
+  margin-bottom: 10px;
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+
+/* - ./entriesViewComponent.js */
+.eachContainer .eachBox {
+  padding-bottom: 16px;
+  margin-top: 16px;
+  border-bottom: 1px solid rgba(209, 209, 209, 0.8);
+}
+.eachContainer .eachBox .subText {
+  font-size: 14px;
+  color: gray;
+  margin-bottom: 8px;
+}
+.eachContainer .eachBox .break {
+  margin-top: 10px;
+}
+
+/* - ./sensesViewComponent.js */
+
+.eachContainer .eachBox .subTextStrong {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.eachContainer .eachBox .list {
+  margin-top: 4px;
+  margin-bottom: 4x;
+  font-size: 14px;
+  margin-left: 30px;
+}
+
+.eachContainer .eachBox .list li {
+  margin-top: 4px;
+  margin-bottom: 4px;
+}

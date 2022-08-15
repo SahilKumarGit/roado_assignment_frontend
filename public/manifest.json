@@ -1,25 +1,47 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "name": "Roado Assignment",
+  "short_name": "Roado",
+  "theme_color": "#64244b",
+  "background_color": "#64244b",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "/",
   "icons": [
     {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
+      "src": "maskable.png",
+      "type": "image/png",
+      "sizes": "196x196",
+      "purpose": "any maskable"
     },
     {
-      "src": "logo192.png",
+      "src": "i16.png",
+      "type": "image/png",
+      "sizes": "16x16"
+    },
+    {
+      "src": "i32.png",
+      "type": "image/png",
+      "sizes": "32x32"
+    },
+    {
+      "src": "i192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "logo512.png",
+      "src": "i256.png",
+      "type": "image/png",
+      "sizes": "256x256"
+    },
+    {
+      "src": "i384.png",
+      "type": "image/png",
+      "sizes": "384x384"
+    },
+    {
+      "src": "i512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
-  ],
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  ]
 }
