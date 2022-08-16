@@ -59,13 +59,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/m
 
 ### Advanced Configuration
 
-
-## BACKEND
-##### Backend part is in another GitHub repo
-➡️ [Go to Backend Repo](https://github.com/SahilKumarGit/roado_assignment_backend)
-
-
-
 This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
 ### Deployment
@@ -75,3 +68,12 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+
+## BACKEND
+##### Backend part is in another GitHub repo
+➡️ [Go to Backend Repo](https://github.com/SahilKumarGit/roado_assignment_backend)
+
+
